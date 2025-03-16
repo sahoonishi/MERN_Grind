@@ -8,7 +8,7 @@ const showTodo=()=>{
  console.log("1:Add new task");
  console.log("2:View All tasks");
  console.log("3:Exit");
- rl.question("Choose an option",handleInput);
+ rl.question("Choose an option",handleInput);         
 }
 const handleInput=(option)=>{
   if(option === "1"){
