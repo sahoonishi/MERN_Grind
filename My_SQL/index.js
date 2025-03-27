@@ -45,8 +45,8 @@ console.log("Connected");
 //*---------------------------------------- Prepared statements (multiple)
 
 // const values = [
-//   ["radio","radio1"],
-//   ["postman","postman1"],
+//   ["ro","ro1"],
+//   ["pn","pn1"],
 // ];
 // await mysql_db_new.query("insert into user(username,email) values ?",[values]); // here instead of execute we will write query
 
@@ -65,20 +65,20 @@ console.log(rows);
 //! -------------------------------------------- UPDATE (Not recommended)
 // every time you do something run the previous code i.e READ code to get values in console , thts why i left that read part code uncommented
 // try {
-//   await mysql_db_new.execute("update user set username='Bitch' where email='radio1'");
+//   await mysql_db_new.execute("update user set username='Bitch' where email='ro1'");
 // } catch (error) {
 //   console.log(error);
 // }
 // *-----------------------------------------UPDATE (Recommended)
 // try {
-//   await mysql_db_new.execute("update user set username=? where email=?",["Randi","radio1"])
+//   await mysql_db_new.execute("update user set username=? where email=?",["Randi","ro1"])
 // } catch (error) {
 //   console.log(error);
 // }
 
 //!-----------------------------------------DELETE
 // try {
-//   await mysql_db_new.execute("DELETE FROM user where email='radio1'"); // or we can do email=? then , ["email"] , like above recommended update process
+//   await mysql_db_new.execute("DELETE FROM user where email='ro1'"); // or we can do email=? then , ["email"] , like above recommended update process
 // } catch (error) {
 //   console.log(error);
 // }
