@@ -29,6 +29,6 @@ const main = async () => {
   //   .where(eq(usersTable.email, "hello"));
   // console.log(updatedUser);
   //!DELETE (use eq while updating and deleting (RECOMMENDED));
-  await db.delete(usersTable).where(eq(usersTable.email,"hello123"));
+  // await db.delete(usersTable).where(eq(usersTable.email,"hello123"));
 };
 main().catch((error) => console.log(error));
